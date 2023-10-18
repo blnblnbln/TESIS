@@ -1,0 +1,18 @@
+Number of good acquisition stars: 3
+
+2nd order overlap above 724 nm
+
+OT setup:
+Target RA  = 49.56823
+Target Dec = -66.49729
+Pos. angle = 90.1
+Grating    = R400
+Filter     = Open
+CWL        = 520
+
+Other parameters:
+Spectral range  = 361.900000000001 - 1087.1 nm
+Lin. dispersion = 0.1515 nm/pixel
+
+Comments for interpreting mask images (PIs ignore please):
+

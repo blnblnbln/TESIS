@@ -95,3 +95,4 @@ Slit (sci)  | Hb | O3_4959 | O3_5007 | N2_6548 | Ha | N2_6584 | S2_6716 | S2_673
 27 (24) | 4868.5blended leve |4966.6 blended | bpc | blended | **6573.7** | ***6594.3*** | ***6728.1*** | ***6742*** #peor q 1
 29 (26) | 4869.1 blended leve | blended leve - | ***5015.7*** | blended | 6573.6 | ***6594.7*** | 6727.3 | 6741.7 #peor q 1
 31 (28) | no emission
+

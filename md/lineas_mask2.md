@@ -65,15 +65,19 @@ Slit (sci)  | Hb | O3_4959 | O3_5007 | N2_6548 | Ha | N2_6584 | S2_6716 | S2_673
 
 
 ``````
-slit 6 (sci 3) ok :D nop, re - cal
+slit 6 (sci 3) ok :D
 
 slit 15 (sci 12) ok :D
 
 slit 16 (sci 13) ok :D
 
-slit 25 (sci 22) ok :D sí
+slit 23 (sci 20) ok bc absorption
 
-slit 29 (sci 26) re cal 5300 al menos
+slit 25 (sci 22) ok :D
+
+slit 29 (sci 26) pasa pke 2 malas
+
+slit 31 ok bc no emission
 ``````
 
 ### new 5200 nm
@@ -84,15 +88,41 @@ Slit (sci)  | Hb | O3_4959 | O3_5007 | N2_6548 | Ha | N2_6584 | S2_6716 | S2_673
 4 (1)   | 4868.4 | 4966.2  | 5014.2  | 6557.8  | 6572.8 | 6593.3 | 6726.6 | 6740.8
 6 (3)   | 4869.4| 4967.2 | 5015.3 | 6558.4 | 6573.3 | 6593.7 | 6727 | 6741.3
 8 (5)   | 4868.6 | 4966.2 | 5014.2 | 6557.8 | 6572.9 | 6593.3 | 6726.5 | 6741
-10 (7)  | 4868.5 | 4966.1 | 5014 | blended ??? | 6572.4 | ***6592.8*** | 6726.2 | 6740.4
-12 (9)  | ***4868.2*** | 4966.2 | ***5013.8*** | blended ? | **6572.5** | 6593.3 | 6726.5 | 6741
+10 (7)  | 4868.5 | 4966.1 | 5014 | blended ??? | 6572.4 | ***6592.8*** | 6726.2 | ***6740.4***
+12 (9)  | 4868.2 | 4966.2 | ***5013.8*** | blended ? | 6572.5 | 6593.3 | 6726.5 | 6741
 14 (11) | 4869.3 | gap | gap | gap | gap | 6594 | 6727.2 | 6741.5 |
 15 (12) | gap | 4966.5 | 5014.4 | blended | ***6573.8*** | ***6594.7*** | ***6727.5*** | ***6742.1***
 16 (13) | 4868.5 | ***4965.8*** | 5014.4 con bpc :c | blended | 6573.3 | 6593.9 | 6727.3 | 6741.7 #peor q 1
 21 (18) | 4869.3 | 4966.9 | gap | gap | gap | gap | 6727.3 | 6741.7 #leve peor
 23 (20) | abs | abs | em leve | - | em leve | - | - | -
 25 (22) | 4868.6 blended ! | 4966.1 | 5014.2 | blended | 6573.1 | 6594.2 | 6727.2 | 6741.9 #muchopeor q 1 
-27 (24) | 4868.5blended leve |4966.6 blended | bpc | blended | **6573.7** | ***6594.3*** | ***6728.1*** | ***6742*** #peor q 1
+27 (24) | 4868.5 blended leve |4966.6 blended | bpc | blended | **6573.7** | ***6594.3*** | ***6728.1*** | ***6742*** #peor q 1
 29 (26) | 4869.1 blended leve | blended leve - | ***5015.7*** | blended | 6573.6 | ***6594.7*** | 6727.3 | 6741.7 #peor q 1
 31 (28) | no emission
 
+
+
+borraré para siempre los slits re cal de 5200: (reemplazar por database1)
+slit 16 - slit 21 no la borrè - slit 25 - slit 29
+
+borraré (a carpeta de respaldo database1) de 5300 primera cal los sgtes slits para re-calibrarlos:
+slit 4 - 8 - 10 - 12 - 14 - 21 - 27
+
+### new 5300 nm
+
+Slit (sci)  | Hb | O3_4959 | O3_5007 | N2_6548 | Ha | N2_6584 | S2_6716 | S2_6731
+----------- | -- | ------- | ------- | ------- | -- | ------- | ------- | -------
+4 (1) | 4868.3 | 4966.1 | 5014.2 | 6557.8 | 6572.5 | ***6593*** | 6726.3 | 6740.8 (quedó igual sólo cambia de 57.6 a 57.8)
+6 (3) | 4869.1 | 4967 | 5015 | 6558.5 blended | 6573.2 | 6595 bpc | 6726.8 | 6741.4
+8 (5) | 4868.4 | 4966.3 | 5014.2 | 6557.9 blend | 6572.7 | ***6593.1*** | 6726.5 | 6740.9 (igual sólo de 57.8 a 57.9)
+10 (7) | 4868.7 punta ??? | 4966.1 | 5013.9 | - blended | 6572.5 | 6594.1 | 6726.5 | 6740.8 (de 68.6 a 8.7, de 66 a 66.1, 72.3 a 72.5, 26.3 a 26.5, 40.7 a 40.8)
+12 (9) | 4868.2 | 4965.9 | 5013.9 | - blended | 6572.4 | ***6592.9*** | 6726.3 | 6740.5 (de 67.7 a 68.2, 65.8 a 65.9, peor de 14 a 13.9, peor de 93 a 92.9, peor de 26.4 a 26.3, de 40.3 a 40.5)
+14 (11) | 4869.2 | 4967 | 5015 | ***6559.6*** blended | 6573 | 6593.6 | 6727.1 | 6741.5 (de 69.3 a 69.2, de 15.1 a 15, de 72.9 a 73, de 93.5 a 93.6, peor de 27 a 27.1, peor de 41.4 a 41.5) en realidad que suba es mejor porque combine tira pabajo, nos quedamos con este
+15 (12) | 4869.5 | gap |5014.1 | - blended lost | 6573.7 | ***6594.6*** | ***6727.6*** | ***6742.1***
+16 (13) | 4869 al lado de gap | 4965.8 | 5014 | ***6559.1*** blended | Ha | 6593.6 | 6727.2 | 6741.5
+21 (18) | 4869.1 | ***4967.7*** | 5015.2 | - blended | 6573.2 | 6594 | 6727.6 | 6741.5 (peor de 67.8 a 67.7, de 15.3 a 15.2, de 73.1 a 73.2, 94.1 a 94, peor 27.5 a 27.6, peor de 41.5 a 41.6) same as slit 14, como tira parriba aunque sea peor puede que resulte para el combine, dejarlo
+23 (20) | absorption 
+25 (22) | 4869 | 4966.4 | 5014.2 | - blended | 6573 | **6594.4** | 6726.8 | 6741.4 
+27 (24) | 4868.9 blended :c leve | ***4965.3*** mala blended levee | 5014.3 | - blended :c lost| 6573.5 | ***6595.1*** | 6727 | 6741.9 (de 68.4 a 68.9, peor de 65.5 a 65.3 pero está blended en ambas, casi q perdida, de 14.2 a 14.3, peor de 95 a 95.1, 26.8 a 27) quedarse con esta por Hb, y same que suba es mejor x combine q baja
+29 (26) | 4869.4 | ***4967.3*** | ***5016*** | - blended | 6573.5 | 6594.1 | - | - 
+31 (28) | no emission
